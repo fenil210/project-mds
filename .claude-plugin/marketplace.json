@@ -1,18 +1,18 @@
 {
   "name": "project-mds",
-  "description": "Generates project documentation markdown files for AI coding agents",
   "owner": {
     "name": "fenil210",
-    "url": "https://github.com/fenil210"
+    "email": "fenilramoliya@gmail.com"
   },
   "plugins": [
     {
       "name": "project-mds",
+      "version": "1.0.0",
       "description": "Analyzes your codebase and generates only the documentation files that actually apply",
-      "source": {
-        "type": "github",
-        "repo": "fenil210/project-mds"
-      }
+      "author": {
+        "name": "fenil210"
+      },
+      "source": "."
     }
   ]
 }

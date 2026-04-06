@@ -19,7 +19,8 @@ A Claude Code plugin that analyzes your codebase and generates project documenta
 ## Install
 
 ```bash
-/plugin install github:fenil210/project-mds
+/plugin marketplace add fenil210/project-mds
+/plugin install project-mds@project-mds
 ```
 
 ## Usage
