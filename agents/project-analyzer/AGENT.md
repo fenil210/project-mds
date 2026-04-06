@@ -54,10 +54,10 @@ Check for: `.env.example`, `.env.sample`, `.env.template`, dotenv usage, config 
 Set each key to `true` or `false`:
 
 - `PROJECT_OVERVIEW`: always `true`
-- `AGENTS`: - `AGENTS`: always `true`
+- `AGENTS`: always `true`
 - `API_COLLECTION`: `true` if any HTTP routes, GraphQL schema, gRPC proto, or tRPC router exists
 - `INFRASTRUCTURE`: `true` if any Docker, Kubernetes, Terraform, serverless config, or cloud IaC exists
-- `QUEUE_FLOW_WALKTHROUGH`: `true` if any queue library, worker pattern, or event streaming code is found
+- `QUICK_FLOW_WALKTHROUGH`: always `true`
 - `DATA_MODELS`: `true` if any ORM schema, database model, or migration system exists
 - `AUTH_FLOWS`: `true` if any auth middleware, JWT, OAuth, or session management exists
 - `ENVIRONMENT_SETUP`: `true` if `.env.example` or equivalent exists, or if the project has more than 3 distinct env vars referenced in code

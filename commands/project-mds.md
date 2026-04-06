@@ -8,7 +8,7 @@ Use the Task tool to invoke the `project-analyzer` agent. Pass it the following 
 
 > Analyze this project and return a structured JSON report of what documentation files should be generated. The working directory is the current project root.
 
-Wait for the analyzer to complete and parse its output. The output will be a JSON object like:
+Wait for the analyzer to complete and parse its output. The output will be a JSON object like this for example:
 
 ```json
 {
@@ -17,11 +17,11 @@ Wait for the analyzer to complete and parse its output. The output will be a JSO
   "frameworks": [],
   "applicable_docs": {
     "PROJECT_OVERVIEW": true,
-    "AGENTS": false,
+    "AGENTS": true,
     "API_COLLECTION": true,
     "INFRASTRUCTURE": true,
     "QUEUE_FLOW_WALKTHROUGH": false,
-    "DATA_MODELS": true,
+    "DATA_MODELS": false,
     "AUTH_FLOWS": true,
     "ENVIRONMENT_SETUP": true,
     "CRON_JOBS": false
@@ -61,7 +61,7 @@ When invoking each writer agent, pass the full analyzer `context` object as part
 
 After all agents complete, print a summary of every file that was generated, with its full path. If any agent failed or produced an empty file, flag it clearly so the user knows.
 
-Format:
+Example Format:
 ```
 ✓ PROJECT_OVERVIEW.md
 ✓ API_COLLECTION.md

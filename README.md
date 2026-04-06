@@ -12,9 +12,9 @@ A Claude Code plugin that analyzes your codebase and generates project documenta
 | `DATA_MODELS.md` | ORM schemas, database models, or migrations exist |
 | `AUTH_FLOWS.md` | JWT, OAuth, session, or auth middleware exists |
 | `ENVIRONMENT_SETUP.md` | `.env.example` exists or 3+ env vars referenced |
-| `QUEUE_FLOW_WALKTHROUGH.md` | BullMQ, RabbitMQ, Kafka, SQS, Celery, or similar exists |
+| `QUICK_FLOW_WALKTHROUGH.md` | Always |
 | `CRON_JOBS.md` | Scheduler library or scheduled tasks exist |
-| `AGENTS.md` | Codebase Information |
+| `AGENTS.md` | Always |
 
 ## Install
 
@@ -55,7 +55,7 @@ project-mds/
     ├── data-models-writer/ # DATA_MODELS.md
     ├── auth-flows-writer/  # AUTH_FLOWS.md
     ├── env-setup-writer/   # ENVIRONMENT_SETUP.md
-    ├── queue-flow-writer/  # QUEUE_FLOW_WALKTHROUGH.md
+    ├── quick-flow-writer/  # QUICK_FLOW_WALKTHROUGH.md
     ├── cron-jobs-writer/   # CRON_JOBS.md
     └── agents-doc-writer/  # AGENTS.md
 ```
