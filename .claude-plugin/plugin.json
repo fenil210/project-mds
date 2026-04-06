@@ -1,0 +1,22 @@
+{
+  "name": "project-mds",
+  "version": "1.0.0",
+  "description": "Analyzes your codebase and generates project documentation markdown files — only the ones that actually apply.",
+  "author": "fenil210",
+  "homepage": "https://github.com/fenil210/project-mds",
+  "commands": [
+    "project-mds"
+  ],
+  "agents": [
+    "project-analyzer",
+    "overview-writer",
+    "agents-doc-writer",
+    "api-collection-writer",
+    "infra-writer",
+    "queue-flow-writer",
+    "data-models-writer",
+    "auth-flows-writer",
+    "env-setup-writer",
+    "cron-jobs-writer"
+  ]
+}
