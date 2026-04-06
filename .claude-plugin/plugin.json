@@ -1,5 +1,5 @@
 {
-  "name": "project-mds-plugin",
+  "name": "project-mds",
   "version": "1.0.0",
   "description": "Analyzes your codebase and generates project documentation markdown files — only the ones that actually apply.",
   "author": {
