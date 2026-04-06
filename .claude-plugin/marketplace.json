@@ -1,11 +1,11 @@
 {
-  "name": "project-mds",
+  "name": "project-mds-plugin",
   "owner": {
     "name": "fenil210"
   },
   "plugins": [
     {
-      "name": "project-mds",
+      "name": "project-mds-plugin",
       "description": "Analyzes your codebase and generates only the documentation files that actually apply",
       "version": "1.0.0",
       "author": {
