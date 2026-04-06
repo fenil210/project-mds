@@ -54,7 +54,7 @@ Check for: `.env.example`, `.env.sample`, `.env.template`, dotenv usage, config 
 Set each key to `true` or `false`:
 
 - `PROJECT_OVERVIEW`: always `true`
-- `AGENTS`: `true` only if AI agent code, LLM tool definitions, or agent orchestration patterns are found
+- `AGENTS`: - `AGENTS`: always `true`
 - `API_COLLECTION`: `true` if any HTTP routes, GraphQL schema, gRPC proto, or tRPC router exists
 - `INFRASTRUCTURE`: `true` if any Docker, Kubernetes, Terraform, serverless config, or cloud IaC exists
 - `QUEUE_FLOW_WALKTHROUGH`: `true` if any queue library, worker pattern, or event streaming code is found
