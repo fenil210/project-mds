@@ -16,6 +16,12 @@ A Claude Code plugin that analyzes your codebase and generates project documenta
 | `CRON_JOBS.md` | Scheduler library or scheduled tasks exist |
 | `AGENTS.md` | Codebase Information |
 
+## Install
+
+```bash
+/plugin install github:fenil210/project-mds
+```
+
 ## Usage
 
 Navigate to your project root in the terminal, start Claude Code, then run:
